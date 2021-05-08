@@ -11,6 +11,16 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
+      <header className={styles.nav}>
+        <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
+        <ul>
+          <li>Home</li>
+          <li>My work</li>
+          <li>About me</li>
+          <li>Get in touch</li>
+        </ul>
+      </header>
+      
       <main className={styles.main}>
         <h1 className={styles.title}>
           Welcome to <a href="https://nextjs.org">Next.js!</a>

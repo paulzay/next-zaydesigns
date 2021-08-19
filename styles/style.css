@@ -1,0 +1,46 @@
+
+.paralax_montiors{
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.bg-overlay-gredient {
+    background: linear-gradient(
+      32deg,
+      rgba(18, 166, 181, 0.8) 0%,
+      rgba(16, 12, 242, 0.7) 100%
+    );
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+}
+  
+.bg-overlay {
+    background: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+.bg-cta {
+  position: relative;
+  background-image: url(../public/bcg_slide-1.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+.section {
+  padding-top: 80px;
+  padding-bottom: 60px;
+  position: relative;
+  background-color: #fff;
+}

@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import { About } from '../components/About';
 import { Footer } from '../components/Footer';
 import { Hire } from '../components/Hire';
 import { Navbar } from '../components/Navbar';
@@ -12,6 +13,7 @@ export default function Home() {
       </Head>
       <Navbar />
       <div>Hello World</div>
+      <About />
       <Hire />
       <Footer />
     </div>

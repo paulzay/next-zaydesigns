@@ -9,35 +9,35 @@ export const Footer = () => {
         <ul className="inline-flex">
           <li>
             <Link href="https://www.linkedin.com/in/paulogolla/">
-              <a className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white text-3xl items-center justify-center hover:text-black" target="_blank" rel="noopener noreferrer">
+              <a className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white text-3xl items-center justify-center hover:bg-white hover:text-black" target="_blank" rel="noopener noreferrer">
                 <i className="fab fa-linkedin"></i>
               </a>
             </Link>
           </li>
           <li>
             <Link href="https://twitter.com/_paulzay_">
-              <a className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white text-3xl items-center justify-center hover:text-black" target="_blank" rel="noopener noreferrer">
+              <a className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white text-3xl items-center justify-center hover:bg-white hover:text-black" target="_blank" rel="noopener noreferrer">
                 <i className="fab fa-twitter"></i>
               </a>
             </Link>
           </li>
           <li>
             <Link href="https://github.com/paulzay/">
-              <a className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white text-3xl items-center justify-center hover:text-black" target="_blank" rel="noopener noreferrer">
+              <a className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white text-3xl items-center justify-center hover:bg-white hover:text-black" target="_blank" rel="noopener noreferrer">
                 <i className="fab fa-github"></i>
               </a>
             </Link>
           </li>
           <li>
             <Link href="https://paulzay.medium.com/">
-              <a className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white text-3xl items-center justify-center hover:text-black" target="_blank" rel="noopener noreferrer">
+              <a className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white text-3xl items-center justify-center hover:bg-white hover:text-black" target="_blank" rel="noopener noreferrer">
                 <i className="fab fa-medium"></i>
               </a>
             </Link>
           </li>
           <li>
             <Link href="https://angel.co/u/paul-ogolla">
-              <a className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white text-3xl items-center justify-center hover:text-black" target="_blank" rel="noopener noreferrer">
+              <a className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white text-3xl items-center justify-center hover:bg-white hover:text-black" target="_blank" rel="noopener noreferrer">
                 <i className="fab fa-angellist " aria-hidden="true"></i>
               </a>
             </Link>

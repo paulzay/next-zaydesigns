@@ -30,14 +30,14 @@ export const About = () => {
               <img className="h-12 mr-5"
               src="https://raw.githubusercontent.com/github/explore/5c058a388828bb5fde0bcafd4bc867b5bb3f26f3/topics/ruby/ruby.png"
               alt="ruby image" />
-            <img className="h-12 mr-5"
+            <img className="h-12"
               src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/nodejs/nodejs.png"
               alt="node image" />
           </div>
         </div>
       </div>
       <div className="right" data-aos="fade-left">
-        <img src="https://raw.githubusercontent.com/paulzay/zaydesigns/master/public/assets/headshots.png" className="img-responsive" alt="my photos" />
+        <img src="https://raw.githubusercontent.com/paulzay/zaydesigns/master/public/assets/headshots.png" className="img-responsive" alt="me" />
       </div>
     </div>
     </section>

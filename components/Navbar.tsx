@@ -1,19 +1,36 @@
-import Link from 'next/link';
-import { useState } from 'react';
+import {Link} from 'react-scroll'
+import { useState, useEffect } from 'react';
 import Image from 'next/image';
 
 export const Navbar = () => {
   const [active, setActive] = useState(false);
+  const [scrolled,setScrolled]= useState(false);
+  const handleScroll=() => {
+    const offset=window.scrollY;
+    if(offset > 200 ){
+      setScrolled(true);
+    }
+    else{
+      setScrolled(false);
+    }
+  }
 
+  useEffect(() => {
+    window.addEventListener('scroll',handleScroll)
+  })
+  let navbarClasses=['flex navbar items-center justify-between flex-wrap bg-white px-14'];
+  if(scrolled){
+    navbarClasses.push('scrolled');
+  }
   const handleClick = () => {
     setActive(!active);
   };
 
   return(
     <>
-      <nav className='flex items-center flex-wrap bg-white px-14'>
+      <nav className={navbarClasses.join(" ")}>
         <Link href='/'>
-          <a className='inline-flex items-center p-3'>
+          <a className='navbar inline-flex items-center p-3'>
            <Image src="/logo.png" alt="logo" width={30} height={30}/>
           </a>
         </Link>
@@ -38,22 +55,22 @@ export const Navbar = () => {
             active ? '' : 'hidden'
           }   w-full lg:inline-flex lg:flex-grow lg:w-auto`}>
           <div className='lg:inline-flex lg:flex-row lg:ml-auto lg:w-auto w-full lg:items-center items-start  flex flex-col lg:h-auto'>
-            <Link href='/'>
+            <Link ctiveClass="active" to="home">
               <a className='lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-black font-medium items-center justify-center hover:bg-black hover:text-white '>
                 HOME
               </a>
             </Link>
-            <Link href='/'>
+            <Link to="portfolio" spy={true} smooth={true}>
               <a className='lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-black font-medium items-center justify-center hover:bg-black hover:text-white'>
-                MY WORK
+                PORTFOLIO
               </a>
             </Link>
-            <Link href='/'>
+            <Link to="about" spy={true} smooth={true}>
               <a className='lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-black font-medium items-center justify-center hover:bg-black hover:text-white'>
                 ABOUT ME
               </a>
             </Link>
-            <Link href='/'>
+            <Link to="contact" spy={true} smooth={true}>
               <a className='lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-black font-medium items-center justify-center hover:bg-black hover:text-white'>
                 GET IN TOUCH
               </a>

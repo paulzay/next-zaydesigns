@@ -1,15 +1,16 @@
-/* body {
-	background-color: rgb(22, 33, 41);
-} */
-/* header {
-	background: url(../public/jelly.jpg);
-	height: 100vh;
-	background-size: cover;
-	background-position: center center;
-} */
-
-nav {
-	height: 10vh;
+.scrolled {
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color: white;
+}
+.navbar {
+	width: 100%;
+	min-height: 6vh;
+	padding: 20px 100px;
+	transition-timing-function: ease-in;
+	transition: all 0.7s;
+	z-index: 1;
 }
 .paralax_montiors {
 	background-attachment: fixed;
@@ -48,24 +49,19 @@ nav {
 	background-size: cover;
 	background-position: center center;
 }
-
-.section {
-	padding-top: 80px;
-	padding-bottom: 60px;
-	position: relative;
-	background-color: #fff;
-}
-
+/* about section */
 .about {
+	min-height: 90vh;
 	padding: 6vw;
-	margin-top: 40px;
-}
-.right {
-	width: 60%;
+	margin-top: 0 auto;
 }
 .right img {
 	border-radius: 50%;
 	width: 100%;
+}
+.left-text p {
+	color: #666666;
+	margin-bottom: 2rem;
 }
 .banner {
 	display: flex;
@@ -96,9 +92,6 @@ nav {
 	font-size: 30px;
 	line-height: 1.1;
 	margin-top: 10px;
-}
-.banner span i {
-	animation: pulse 2s infinite;
 }
 .banner span {
 	font-size: 20px;

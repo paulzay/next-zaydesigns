@@ -10,7 +10,7 @@ export const Banner = () => {
   }
 
   return(
-    <div className="banner">
+    <div className="banner" id="home">
       <div data-aos="fade-up" data-aos-duration="100">
         <h1>Hi, my name is</h1>
       </div>

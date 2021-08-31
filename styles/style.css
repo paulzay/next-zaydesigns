@@ -33,7 +33,6 @@
 }
 
 .bg-overlay {
-	background: rgba(0, 0, 0, 0.7);
 	position: absolute;
 	top: 0;
 	right: 0;
@@ -45,7 +44,7 @@
 
 .bg-cta {
 	position: relative;
-	background-image: url(../public/bcg_slide-1.jpg);
+	background-image: url(../public/marv.jpg);
 	background-size: cover;
 	background-position: center center;
 }
@@ -63,7 +62,8 @@
 	color: #666666;
 	margin-bottom: 2rem;
 }
-.banner {
+.banner,
+#contact {
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
@@ -97,4 +97,32 @@
 	font-size: 20px;
 	margin-top: 40px;
 	cursor: pointer;
+}
+/* #contact {
+	min-height: 90vh;
+	outline: 1px solid green;
+} */
+#contact h2 {
+	font-size: clamp(40px, 5vw, 60px);
+	font-weight: 600;
+}
+#contact p {
+	margin: 30px auto;
+	font-size: 24px;
+	color: #666666;
+}
+.email-link {
+	color: black;
+	background-color: transparent;
+	border: 1px solid black;
+	border-radius: 5px;
+	padding: 1.25rem 1.75rem;
+	text-decoration: none;
+	cursor: pointer;
+	margin-top: 50px;
+}
+.email-link:hover {
+	background-color: black;
+	color: white;
+	transform: scale(1.09);
 }

@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import { About } from '../components/About';
 import { Banner } from '../components/Banner';
+import { Contact } from '../components/Contact';
 import { Footer } from '../components/Footer';
 import { Hire } from '../components/Hire';
 import { Navbar } from '../components/Navbar';
@@ -18,6 +19,7 @@ export default function Home() {
       <ProjectSection />
       <About />
       <Hire />
+      <Contact />
       <Footer />
     </div>
   );

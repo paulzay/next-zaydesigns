@@ -1,6 +1,14 @@
 import Link from "next/link";
 
 export const Banner = () => {
+    function handleScroll() {
+    window.scroll({
+      top: document.body.offsetHeight,
+      left: 0, 
+      behavior: 'smooth',
+    });
+  }
+
   return(
     <div className="banner">
       <div data-aos="fade-up" data-aos-duration="100">
@@ -54,6 +62,13 @@ export const Banner = () => {
           </li>
         </ul>
       </div>
+      <button type="button" onClick={handleScroll}>
+      <span className="text-center" data-aos="fade-up" data-aos-easing="ease" data-aos-delay="600">
+        Scroll down
+        <br/>
+        <i className="fas fa-chevron-down"></i>
+      </span>
+      </button>
     </div>
   )
 }

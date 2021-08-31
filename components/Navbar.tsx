@@ -11,9 +11,9 @@ export const Navbar = () => {
 
   return(
     <>
-      <nav className='flex items-center flex-wrap bg-white p-3 '>
+      <nav className='flex items-center flex-wrap bg-white px-14'>
         <Link href='/'>
-          <a className='inline-flex items-center p-2 mr-4 '>
+          <a className='inline-flex items-center p-3'>
            <Image src="/logo.png" alt="logo" width={30} height={30}/>
           </a>
         </Link>

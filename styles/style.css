@@ -81,6 +81,10 @@
 	height: 90vh;
 	max-width: 1000px;
 }
+.banner .bi {
+	animation: bounce 2s ease-in-out infinite;
+	color: #ff0077;
+}
 .banner h1 {
 	font-size: 20px;
 	line-height: 1.1;
@@ -136,7 +140,9 @@
 	transform: scale(1.09);
 }
 #portfolio {
-	padding: 12rem 0;
+	padding: 10rem 0;
+	background-color: #ebebeb;
+	min-height: 90vh;
 }
 .section-intro {
 	max-width: 700px;
@@ -277,3 +283,149 @@
 		margin-bottom: 30px;
 	}
 }
+
+.card {
+	/* position: relative; */
+	/* top: 50%;
+	left: 50%; */
+	width: 400px;
+	height: 300px;
+	transform: translate(-50%, -50%);
+	transform-style: preserve-3d;
+	perspective: 600px;
+	transition: 0.5s;
+}
+.card:hover .card-front,
+.card:hover .card-front2,
+.card:hover .card-front3,
+.card:hover .card-front4 {
+	transform: rotateX(-180deg);
+}
+.card:hover .card-back {
+	transform: rotateX(0deg);
+}
+
+.card-front {
+	height: 100%;
+	width: 100%;
+	background-image: url(../public/shooter.png);
+	/* background-position: 50% 50%;
+	background-size: cover; */
+	position: absolute;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	/* top: 0;
+	left: 0; */
+	background-color: #fff;
+	backface-visibility: hidden;
+	transform: rotateX(0deg);
+	transition: 0.5s;
+}
+
+.card-front2 {
+	height: 100%;
+	width: 100%;
+	background-image: url(../public/bookdukka.png);
+	/* background-position: 50% 50%;
+	background-size: cover; */
+	position: absolute;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	/* top: 0;
+	left: 0; */
+	background-color: #fff;
+	backface-visibility: hidden;
+	transform: rotateX(0deg);
+	transition: 0.5s;
+}
+.card-front3 {
+	height: 100%;
+	width: 100%;
+	background-image: url(../public/reels.png);
+	/* background-position: 50% 50%;
+	background-size: cover; */
+	position: absolute;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	/* top: 0;
+	left: 0; */
+	background-color: #fff;
+	backface-visibility: hidden;
+	transform: rotateX(0deg);
+	transition: 0.5s;
+}
+.card-front4 {
+	height: 100%;
+	width: 100%;
+	background-image: url(../public/cars.png);
+	/* background-position: 50% 50%;
+	background-size: cover; */
+	position: absolute;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	/* top: 0;
+	left: 0; */
+	background-color: #fff;
+	backface-visibility: hidden;
+	transform: rotateX(0deg);
+	transition: 0.5s;
+}
+
+.card-back {
+	height: 100%;
+	width: 100%;
+	position: relative;
+	/* top: 0;
+	left: 0; */
+	background-color: #000000;
+	backface-visibility: hidden;
+	transform: rotateX(180deg);
+	transition: 0.5s;
+	color: #ffffff;
+	text-align: center;
+}
+/* .card-back h2 {
+	margin: 60% auto 35% auto;
+	font-size: 26px;
+}
+.card-back span {
+	font-size: 20px;
+}
+.card-back a {
+	height: 20px;
+	width: 20px;
+	padding: 5px 5px;
+	border-radius: 4px;
+	line-height: 20px;
+} */
+.card-back:hover {
+	color: #fff;
+	background-color: #111827;
+	/* display: flex;
+	flex-direction: column;
+	justify-content: center; */
+}
+.content {
+	/* padding: 6vw; */
+	width: 94%;
+	max-width: 1140px;
+	margin: 40px auto;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-auto-rows: 1fr;
+	/* grid-column-gap: 0px;
+	grid-row-gap: 0px;
+	overflow: hidden; */
+}
+/* .card-columns {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-auto-rows: 1fr;
+	grid-column-gap: 20px;
+	grid-row-gap: 10px;
+	overflow: hidden;
+} */

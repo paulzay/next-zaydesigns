@@ -66,7 +66,7 @@ export const Banner = () => {
       <span className="text-center" data-aos="fade-up" data-aos-easing="ease" data-aos-delay="600">
         Scroll down
         <br/>
-        <i className="fas fa-chevron-down"></i>
+        <i className="fas fa-chevron-down bi"></i>
       </span>
       </button>
     </div>

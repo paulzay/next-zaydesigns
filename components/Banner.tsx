@@ -12,7 +12,7 @@ export const Banner = () => {
   return(
     <div className="banner" id="home">
       <div data-aos="fade-up" data-aos-duration="100">
-        <h1>Hi, my name is</h1>
+        <h1 className="">Hi, my name is</h1>
       </div>
       <div data-aos="fade-up" data-aos-duration="200">
         <h2>Paul Ogolla.</h2>
@@ -21,7 +21,7 @@ export const Banner = () => {
         <h3>I am a Software Developer.</h3>
       </div>
       <div data-aos="fade-up" data-aos-duration="400">
-        <h4>I am passionate about building excellent software that improves the lives of those around me. I can help you build a product, feature, mobile app or website. </h4>
+        <h4>I'm passionate about building excellent software that improves the lives of those around me. I can help you build a product, feature, mobile app or website. </h4>
       </div>
       <div className="mt-4" data-aos="fade-up" data-aos-duration="500">
         <ul className="inline-flex">

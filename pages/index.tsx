@@ -6,6 +6,7 @@ import { Footer } from '../components/Footer';
 import { Hire } from '../components/Hire';
 import { Navbar } from '../components/Navbar';
 import ProjectSection from '../components/ProjectSection';
+import { Slide } from '../components/Slide';
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       <Banner />
       <ProjectSection />
       <About />
+      <Slide />
       <Hire />
       <Contact />
       <Footer />

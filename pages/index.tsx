@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import { About } from '../components/About';
+import { AboutMe } from '../components/AboutMe';
 import { Banner } from '../components/Banner';
 import { Contact } from '../components/Contact';
 import { Footer } from '../components/Footer';
@@ -18,8 +18,8 @@ export default function Home() {
       <Navbar />
       <Banner />
       <ProjectSection />
-      <About />
-      <Slide />
+      <AboutMe />
+      {/* <Slide /> */}
       <Hire />
       <Contact />
       <Footer />

@@ -1,7 +1,7 @@
-export const About = () => {
+export const AboutMe = () => {
   return (
-    <div className="about flex justify-between" id="about">
-      <div className="left" data-aos="fade-right">
+    <div className="aboutme">
+      <div className="" data-aos="fade-up">
         <h2 className="mb-10 text-center">ABOUT ME</h2>
         <div className="left-text text-left px-16">
           <p className="text-xl">
@@ -17,13 +17,13 @@ export const About = () => {
             many more.
           </p>
           <p className="text-xl">
+            Currently, I'm exploring the web3 space with Solidity.
+          </p>
+          <p className="text-xl">
             When I'm not fixing bugs, I love to deejay, dance, cycle, skate and of course doomscroll on the internet.
           </p>
         </div>
       </div>
-      {/* <div className="right" data-aos="fade-left">
-        <img src="https://raw.githubusercontent.com/paulzay/zaydesigns/master/public/assets/headshots.png" className="img-responsive" alt="me" />
-      </div> */}
     </div>
-  )
-}
+  );
+} 

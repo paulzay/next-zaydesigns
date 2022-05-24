@@ -3,7 +3,7 @@ export const AboutMe = () => {
     <div className="aboutme">
       <div className="" data-aos="fade-up">
         <h2 className="mb-10 text-center">ABOUT ME</h2>
-        <div className="left-text text-left px-16">
+        <div className="left-text text-left px-10">
           <p className="text-xl">
             I am a software developer with professional experience innovating
             solutions. I specialize in building applications specific to the

@@ -71,6 +71,13 @@
 	margin-top: 40px;
 	cursor: pointer;
 }
+
+@media only screen and (max-width: 990px) {
+	.ff_block66_bgimg,.ff_block66_bgimg_1{
+		visibility: hidden;
+	}
+}
+
 .ff_block66_bgimg_1 {
 	right: 0;
 	top: 264px;

@@ -11,9 +11,6 @@ export const Banner = () => {
 
   return (
     <div className="banner" id="home">
-      {/* <div data-aos="fade-up" data-aos-duration="100">
-        <h1 className="">Hi, my name is</h1>
-      </div> */}
       <span className="ff_block66_bgimg ff_block66_bgimg_1"></span>
       <div data-aos="fade-up" data-aos-duration="200">
         <h2>PAUL OGOLLA</h2>
@@ -63,13 +60,6 @@ export const Banner = () => {
           </li>
         </ul>
       </div>
-      {/* <button type="button" onClick={handleScroll}>
-      <span className="text-center" data-aos="fade-up" data-aos-easing="ease" data-aos-delay="600">
-        Scroll down
-        <br/>
-        <i className="fas fa-chevron-down bi"></i>
-      </span>
-      </button> */}
     </div>
   )
 }

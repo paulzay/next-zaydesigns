@@ -132,21 +132,20 @@
 	background-position: center center;
 }
 /* about section */
-.about {
-	min-height: 90vh;
-	width: 100vw;
-	margin-top: 0 auto;
-}
+
 .aboutme{
 	min-height: 90vh;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
 }
 .aboutme h2{
-		font-weight: 600;
-		color: #F7CA18;
-		font-size: 1.875rem;
-		line-height: 2.25rem;
-		margin: 40px auto;
-		letter-spacing: 0.4rem
+	font-weight: 600;
+	color: #F7CA18;
+	font-size: 1.875rem;
+	line-height: 2.25rem;
+	margin-bottom: 30px;
+	letter-spacing: 0.4rem;
 }
 .right img {
 	border-radius: 50%;
@@ -169,14 +168,13 @@
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
-	padding: 20 100px;
+	padding: 0 100px;
 	margin: 0 auto;
 	min-height: 90vh;
 	max-width: 1000px;
 }
 
 #contact h2 {
-	/* font-size: clamp(40px, 5vw, 60px); */
 	font-weight: 600;
 	color: #F7CA18;
 	font-size: 1.875rem;
@@ -225,31 +223,23 @@
 }
 
 #portfolio {
-	padding: 10rem 0;
 	background-color: #ebebeb;
 	min-height: 90vh;
 }
 .section-intro {
-	max-width: 700px;
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
 	margin-bottom: 3.6rem;
 	position: relative;
 }
-.section-intro h3 {
-	font-size: 2.6rem;
-	color: #313131;
-	line-height: 1.25;
-	margin-bottom: 1.2rem;
-	font-weight: 500;
-}
+
 .portfolio-header h2 {
 	color: #F7CA18;
 	font-weight: 600;
 	font-size: 1.875rem;
 	line-height: 2.25rem;
-	margin-bottom: 0.3rem;
+	padding: 40px 0;
 	letter-spacing: 0.4rem;
 }
 

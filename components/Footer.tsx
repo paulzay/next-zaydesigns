@@ -29,19 +29,19 @@ export const Footer = () => {
             </Link>
           </li>
           <li>
-            <Link href="https://paulzay.medium.com/">
+            <Link href="https://dev.to/paulzay">
               <a className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white text-3xl items-center justify-center hover:bg-white hover:text-black" target="_blank" rel="noopener noreferrer">
-                <i className="fab fa-medium"></i>
+                <i className="fab fa-dev"></i>
               </a>
             </Link>
           </li>
-          <li>
+          {/* <li>
             <Link href="https://angel.co/u/paul-ogolla">
               <a className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white text-3xl items-center justify-center hover:bg-white hover:text-black" target="_blank" rel="noopener noreferrer">
                 <i className="fab fa-angellist " aria-hidden="true"></i>
               </a>
             </Link>
-          </li>
+          </li> */}
         </ul>
       </div>
       <p className="mt-10 mb-0 text-white text-center tracking-wide">&copy; Paul Ogolla <span>{date}</span>. All rights reserved.</p>

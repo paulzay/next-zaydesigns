@@ -45,19 +45,19 @@ export const Banner = () => {
             </Link>
           </li>
           <li>
-            <Link href="https://paulzay.medium.com/">
+            <Link href="https://dev.to/paulzay">
               <a className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-black text-3xl items-center justify-center hover:bg-black hover:text-white" target="_blank" rel="noopener noreferrer">
                 <i className="fab fa-dev"></i>
               </a>
             </Link>
           </li>
-          <li>
+          {/* <li>
             <Link href="https://www.tiktok.com/@paulzay">
               <a className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-black text-3xl items-center justify-center hover:bg-black hover:text-white" target="_blank" rel="noopener noreferrer">
                 <i className="fab fa-tiktok"></i>
               </a>
             </Link>
-          </li>
+          </li> */}
         </ul>
       </div>
     </div>

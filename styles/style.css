@@ -18,16 +18,20 @@
 /* banner */
 
 .banner {
-	display: flex;
-	justify-content: center;
-	flex-direction: column;
-	padding: 20px 35px;
-	margin: 0 auto;
+	background-color: transparent;
+	background-image: url('../public/bg.png');
+	background-position: 0px 0px, 50% 50%;
+	background-size: 1400px, cover;
 	min-height: 90vh;
-	max-width: 100vw;
-	box-sizing:border-box;
+	display: flex;
 }
-
+.banner_content {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 20px 35px;
+	margin: auto;
+}
 .banner .bi {
 	animation: bounce 2s ease-in-out infinite;
 	color: #ff0077;

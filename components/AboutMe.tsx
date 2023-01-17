@@ -5,9 +5,13 @@ export const AboutMe = () => {
         <h2 className="text-center">ABOUT ME</h2>
         <div className="left-text text-left px-10">
           <p className="text-xl text-justify">
-            I am a software developer with professional experience innovating
+            I started Zay Designs while in College to make posters for my friends' events and businesses and expanded into other graphics related content before venturing
+            into software development full-time.
+          </p>
+          <p className="text-xl text-justify">
+            Now I work as a software developer with professional experience innovating
             solutions. I specialize in building applications specific to the
-            business needs of my clients. I work in full-stack web development, mobile app development, and database
+            business needs of my clients. I work in full-stack web development and maintenance, mobile app development, graphics design and database
             management.
           </p>
           <p className="text-xl text-justify">

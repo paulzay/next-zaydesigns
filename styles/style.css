@@ -131,7 +131,7 @@
 
 .bg-cta {
 	position: relative;
-	background-image: url('../public/marv.jpg');
+	background-image: url('../assets/marv.jpg');
 	background-size: cover;
 	background-position: center center;
 }

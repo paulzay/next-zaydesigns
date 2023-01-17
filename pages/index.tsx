@@ -3,6 +3,7 @@ import { AboutMe } from '../components/AboutMe';
 import { Banner } from '../components/Banner';
 import { Contact } from '../components/Contact';
 import { Footer } from '../components/Footer';
+import { Hire } from '../components/Hire';
 import { Navbar } from '../components/Navbar';
 import ProjectSection from '../components/ProjectSection';
 
@@ -17,6 +18,7 @@ export default function Home() {
       <Banner />
       <ProjectSection />
       <AboutMe />
+      <Hire />
       <Contact />
       <Footer />
     </div>

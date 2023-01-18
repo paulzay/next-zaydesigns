@@ -53,14 +53,14 @@ export const Navbar = () => {
                 HOME
               </a>
             </Link>
-            <Link to="portfolio" spy={true} smooth={true}>
-              <a className='lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-black font-medium items-center justify-center hover:bg-black hover:text-white'>
-                PORTFOLIO
-              </a>
-            </Link>
             <Link to="about" spy={true} smooth={true}>
               <a className='lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-black font-medium items-center justify-center hover:bg-black hover:text-white'>
                 ABOUT ME
+              </a>
+            </Link>
+            <Link to="portfolio" spy={true} smooth={true}>
+              <a className='lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-black font-medium items-center justify-center hover:bg-black hover:text-white'>
+                PORTFOLIO
               </a>
             </Link>
             <Link to="contact" spy={true} smooth={true}>

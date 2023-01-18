@@ -16,8 +16,8 @@ export default function Home() {
       </Head>
       <Navbar />
       <Banner />
-      <ProjectSection />
       <AboutMe />
+      <ProjectSection />
       <Hire />
       <Contact />
       <Footer />

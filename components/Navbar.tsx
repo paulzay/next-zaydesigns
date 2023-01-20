@@ -65,7 +65,7 @@ export const Navbar = () => {
             </Link>
             <Link to="contact" spy={true} smooth={true}>
               <a className='lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-black font-medium items-center justify-center hover:bg-black hover:text-white'>
-                GET IN TOUCH
+                CONTACT
               </a>
             </Link>
           </div>

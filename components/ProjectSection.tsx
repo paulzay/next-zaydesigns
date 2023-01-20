@@ -33,6 +33,25 @@ function ProjectSection(props: Props) {
               </div>
             </div>
             <div className="flip">
+              <div className="front front4">
+              </div>
+              <div className="back">
+                <h2>Crown GiftShop</h2>
+                <p>Frontend Ecommerce platform build with Reactjs</p>
+                <ul>
+                  <li>
+                    <a href="https://github.com/paulzay/e-comf" target="_blank" rel="noopener noreferrer">
+                      <i className="fab fa-github"></i></a>
+                  </li>
+                  <li>
+                    <a href="https://crowngiftshop.netlify.app/" target="_blank" rel="noopener noreferrer">
+                      Demo
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div className="flip">
               <div className="front front2">
                 {/* <h1 className="text-shadow">Space Shooter</h1> */}
               </div>
@@ -72,26 +91,6 @@ function ProjectSection(props: Props) {
                 </ul>
               </div>
             </div>
-            {/* <div className="flip">
-              <div className="front">
-                <h1 className="text-shadow">Kito Health</h1>
-              </div>
-              <div className="back">
-                <h2>Angular</h2>
-                <p>Good tools make application development quicker and easier to maintain than if you did everything by hand..</p>
-                <ul>
-                  <li>
-                    <a href="https://github.com/paulzay/sporf" target="_blank" rel="noopener noreferrer">
-                      <i className="fab fa-github"></i></a>
-                  </li>
-                  <li>
-                    <a href="https://kitohealth.org/" target="_blank" rel="noopener noreferrer">
-                      Demo
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </div> */}
           </div>
         </div>
       </div>

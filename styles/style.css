@@ -150,6 +150,9 @@
 	flex-direction: column;
 	margin-top: 72px;
 }
+.aboutdiv {
+	max-width: 800px;
+}
 .aboutme h2{
 	font-weight: 600;
 	color: #F7CA18;
@@ -286,11 +289,11 @@
 	transform: rotateY(0deg);
 }
 .flip {
-	position: relative;
+	/* position: relative; */
 	display: inline-block;
-	margin-right: 2px;
+	/* margin-right: 2px;
 	margin-bottom: 1em;
-	width: 40vw;
+	width: 40vw; */
 }
 .flip > .front1 {
 	background: url('../assets/kitoh.png');
@@ -301,8 +304,8 @@
 .flip>.front3 {
 	background: url('../assets/reels.png');
 }
-.flip>.front2 {
-	background: url('../assets/shooter.png');
+.flip>.front4 {
+	background: url('../assets/crown.png');
 }
 .flip > .front h1 {
 	text-align: center;
@@ -356,4 +359,9 @@
 	letter-spacing: 0.4rem;
 }
 
-
+@media only screen and (max-width: 700px) {
+	.projects {
+		display: flex;
+		flex-direction: column;
+	}
+}

@@ -63,11 +63,11 @@ function ProjectSection(props: Props) {
                     <a href="https://github.com/paulzay/shooter" target="_blank" rel="noopener noreferrer">
                       <i className="fab fa-github"></i></a>
                   </li>
-                  <li>
+                  {/* <li>
                     <a href="https://kitohealth.org/" target="_blank" rel="noopener noreferrer">
                       Demo
                     </a>
-                  </li>
+                  </li> */}
                 </ul>
               </div>
             </div>

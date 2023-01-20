@@ -11,7 +11,7 @@ export const Banner = () => {
 
   return (
     <div className="banner" id="home">
-      <div className="banner_content">
+      <div className="banner_content contained">
         <span className="ff_block66_bgimg ff_block66_bgimg_1"></span>
         <div data-aos="fade-up" data-aos-duration="200">
           <h2>PAUL OGOLLA</h2>

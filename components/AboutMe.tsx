@@ -1,7 +1,7 @@
 export const AboutMe = () => {
   return (
     <div className="aboutme">
-      <div className="" data-aos="fade-up">
+      <div className="contained" data-aos="fade-up">
         <h2 className="text-center">ABOUT ME</h2>
         <div className="left-text text-left px-10">
           <p className="text-xl text-justify">

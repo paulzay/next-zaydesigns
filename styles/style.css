@@ -299,13 +299,19 @@
 	background: url('../assets/kitoh.png');
 }
 .flip > .front2 {
-	background: url('../assets/shooter.png');
+	background: url('../assets/rolex.png');
 }
 .flip>.front3 {
 	background: url('../assets/reels.png');
 }
 .flip>.front4 {
 	background: url('../assets/crown.png');
+}
+.flip>.front6 {
+	background: url('../assets/projetti.png');
+}
+.flip>.front5{
+	background: url('../assets/yam.png');
 }
 .flip > .front h1 {
 	text-align: center;

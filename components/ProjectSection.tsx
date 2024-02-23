@@ -32,7 +32,7 @@ function ProjectSection(props: Props) {
                 </ul>
               </div>
             </div>
-            <div className="flip">
+            {/* <div className="flip">
               <div className="front front4">
               </div>
               <div className="back">
@@ -50,7 +50,7 @@ function ProjectSection(props: Props) {
                   </li>
                 </ul>
               </div>
-            </div>
+            </div> */}
             {/* <div className="flip">
               <div className="front front2">
                 <h1 className="text-shadow">Space Shooter</h1>
@@ -71,9 +71,9 @@ function ProjectSection(props: Props) {
                 </ul>
               </div>
             </div> */}
-            <div className="flip">
+            {/* <div className="flip">
               <div className="front front3">
-                {/* <h1 className="text-shadow">Reels</h1> */}
+                <h1 className="text-shadow">Reels</h1>
               </div>
               <div className="back">
                 <h2>Reels</h2>
@@ -90,7 +90,7 @@ function ProjectSection(props: Props) {
                   </li>
                 </ul>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
